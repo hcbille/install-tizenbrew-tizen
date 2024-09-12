@@ -27,8 +27,8 @@ if [ -z "$TV_NAME" ]; then
 fi
 echo "Found TV name: $TV_NAME"
 
-wget -q --show-progress https://github.com/reisxd/TizenBrew/releases/latest/download/TizenBrewStandalone.wgt
+wget -q --show-progress https://github.com/reisxd/TizenBrew/releases/latest/download/TizenBrewStandalone-New.wgt
 
 
 
-tizen install -n TizenBrewStandalone.wgt -t "$TV_NAME"
+tizen install -n TizenBrewStandalone-New.wgt  -t "$TV_NAME"
